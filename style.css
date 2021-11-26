@@ -1,0 +1,82 @@
+body{
+    background:linear-gradient(to left,skyblue,white);
+    display:flex;
+    flex-direction: column;
+}
+    /*Headers*/
+h2{
+    margin-top:4%;
+    font-family: 'Estonia', cursive;
+    font-size: 4vmax;
+}
+    /*Labels*/
+label{
+    font-family: 'Courgette', cursive;
+    font-size:2vmax;
+    padding:3%;
+}
+    /*Input*/
+input{
+    background:linear-gradient(to left top,white,skyblue);
+    margin-top:-2px;
+    margin-left: 2%;
+    border:solid white 0.5vmin;
+    border-block-end-color: skyblue;
+    border-left-color: skyblue;
+    border-radius: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 25vmax;
+    height: 4vmax;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size:2vmax;
+}
+input:hover,:focus{
+    background:linear-gradient(to right bottom,white,skyblue);
+    border:solid black 0.5vmin;
+    height:5vmax;
+    width: 30vmax;
+    border-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size:2.5vmax;
+}
+input:focus{
+    outline:none;
+
+}
+    /*Countries displayed*/
+.countries{
+    display: inline-block;
+    background:linear-gradient(to left top,white,skyblue);
+    margin-left:10%;
+    padding: 3%;
+    border:solid white 1vmin;
+    border-block-end-color: skyblue;
+    border-left-color: skyblue;
+    border-radius: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 25vmax;
+    height: 8vmax;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size:1.5vmax;
+}
+.countries:hover{
+    background:linear-gradient(to right bottom,white,skyblue);
+    border:solid black 1vmin;
+    border-radius: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
