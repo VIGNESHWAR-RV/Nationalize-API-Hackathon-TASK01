@@ -8,6 +8,10 @@ h2{
     margin-top:4%;
     font-family: 'Estonia', cursive;
     font-size: 4vmax;
+    text-decoration: underline 2px;
+}
+#resultHeader{
+    text-decoration: none;
 }
     /*Labels*/
 label{
@@ -18,7 +22,7 @@ label{
     /*Input*/
 input{
     background:linear-gradient(to left top,white,skyblue);
-    margin-top:-2px;
+    margin-top:-5vmin;
     margin-left: 2%;
     border:solid white 0.5vmin;
     border-block-end-color: skyblue;
