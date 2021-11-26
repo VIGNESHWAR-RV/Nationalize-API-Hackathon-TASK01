@@ -22,7 +22,6 @@ label{
     /*Input*/
 input{
     background:linear-gradient(to left top,white,skyblue);
-    margin-top:-5vmin;
     margin-left: 2%;
     border:solid white 0.5vmin;
     border-block-end-color: skyblue;
