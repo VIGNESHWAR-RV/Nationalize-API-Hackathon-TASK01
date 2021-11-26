@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded",function() {
 function key(){
 
 //conditon to check whether searchText is empty ("") 
-    if(searchText.value.length<1){
+    if(searchText.value.length<1 || searchText.value===""){
         result.hidden = true;
         info.hidden  = false;
         noCountry.hidden = true;
