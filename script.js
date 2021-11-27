@@ -2,9 +2,8 @@
 document.body.innerHTML=` 
 <div>
    <h2>Search the Name & Get the Nationality</h2>
-   <input type="text" id="searchText" value="" placeholder="Enter the name" onkeyup="key()">
-   <br>
-   <label id="info">I'll show as you type...</label><br>
+   <input type="text" id="searchText" value="" placeholder="Enter the name" onkeyup="key()"><br>
+   <label for="searchText" id="info">I'll show as you type...</label><br>
    <label id="noCountry" hidden>hmm...Seriously?? I don't think it's a name!!</label><hr>
 </div>
 <div id="result" hidden>
