@@ -1,8 +1,11 @@
 body{
-    background:linear-gradient(to left,skyblue,white);
     display:flex;
     flex-direction: column;
+    background: linear-gradient(to right, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 800% 800%;
+    animation: gradient 20s ease infinite;
 }
+
     /*Headers*/
 h2{
     margin-top:4%;
@@ -21,7 +24,7 @@ label{
 }
     /*Input*/
 input{
-    background:linear-gradient(to left top,white,skyblue);
+    background: transparent;
     margin-left: 2%;
     border:solid white 0.5vmin;
     border-block-end-color: skyblue;
@@ -36,7 +39,9 @@ input{
     font-size:2vmax;
 }
 input:hover,:focus{
-    background:linear-gradient(to right bottom,white,skyblue);
+    background: linear-gradient(to left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 800% 800%;
+    animation: gradient 5s ease infinite;
     border:solid black 0.5vmin;
     height:5vmax;
     width: 30vmax;
@@ -52,7 +57,7 @@ input:focus{
     /*Countries displayed*/
 .countries{
     display: inline-block;
-    background:linear-gradient(to left top,white,skyblue);
+    background:transparent;
     margin-left:10%;
     padding: 3%;
     border:solid white 1vmin;
@@ -68,15 +73,27 @@ input:focus{
     font-size:1.5vmax;
 }
 .countries:hover{
-    background:linear-gradient(to right bottom,white,skyblue);
+    background: linear-gradient(to left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 800% 800%;
+    animation: gradient 5s ease infinite;
     border:solid black 1vmin;
     border-radius: 30px;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 8px;
 }
 
-
-
+    /*Frames for gradient animation*/
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 
 
